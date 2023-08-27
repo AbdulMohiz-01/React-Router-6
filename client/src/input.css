@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    /* Add this CSS to your stylesheet */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #0a0e16; /* Background color of the track */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #6b7280; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners of the thumb */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #4b5563; /* Color of the thumb on hover */
+  }
+  
+}
