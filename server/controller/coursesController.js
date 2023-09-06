@@ -1,6 +1,7 @@
 import { courses } from "../data/index.js";
 import { getById } from "./utils.js";
 
+// getting course by id
 const getCourseById = async (req, res) => {
     try {
         const course = getById(courses, Number(req.params.id))
